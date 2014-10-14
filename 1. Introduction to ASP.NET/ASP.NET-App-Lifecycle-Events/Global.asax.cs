@@ -56,7 +56,10 @@ namespace ASP.NET_App_Lifecycle_Events
                 File.Create(LogFilePath);
             }
 
-            File.AppendAllLines(LogFilePath, new[] { string.Format("[{0}] {1}", DateTime.Now, line) });
+            var debugLine = string.Format("[{0}] {1}", DateTime.Now, line);
+
+            File.AppendAllLines(LogFilePath, new[] { debugLine });
+            Trace.WriteLine(debugLine);
         }
     }
 }
