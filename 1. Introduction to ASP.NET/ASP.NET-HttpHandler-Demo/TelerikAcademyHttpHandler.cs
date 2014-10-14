@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Web;
 
-public class NakovHttpHandler : IHttpHandler
+public class TelerikAcademyHttpHandler : IHttpHandler
 {
     /// <summary>
     /// This handler is called whenever a file ending in .nakov is
@@ -11,7 +11,7 @@ public class NakovHttpHandler : IHttpHandler
     {
         HttpResponse response = context.Response;
         response.ContentType = "text/plain";
-        response.Write("I am Nakov's HTTP handler.\r\n");
+        response.Write("I am Telerik Academy's HTTP handler.\r\n");
         response.Write("Response date: " + DateTime.Now);
     }
 
