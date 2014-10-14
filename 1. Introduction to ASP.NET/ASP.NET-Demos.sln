@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20623.1 VSUPREVIEW
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. ASP.NET-HttpHandler-Demo", "ASP.NET-HttpHandler-Demo\4. ASP.NET-HttpHandler-Demo.csproj", "{74DB54D2-7955-40B7-B492-8A2ED139A87C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. ASP.NET-HttpModule-Demo", "ASP.NET-HttpModule-Demo\5. ASP.NET-HttpModule-Demo.csproj", "{4BA739DE-FA69-4B24-B8FD-408DBD7D485F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. ASP.NET-App-Lifecycle-Events", "ASP.NET-App-Lifecycle-Events\3. ASP.NET-App-Lifecycle-Events.csproj", "{A98DA274-2B74-4D53-84A7-227F72A78AF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. ASP.NET-MVC-Demo", "ASP.NET-MVC-Demo\2. ASP.NET-MVC-Demo.csproj", "{C04897E4-421E-40C6-97D5-F95321328953}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{190816F1-3246-4C2B-BE92-F71B09205350}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. ASP.NET-Web-Forms-Demo", "ASP.NET-Web-Forms-Demo\1. ASP.NET-Web-Forms-Demo.csproj", "{93E94131-01EC-4E7E-8E87-333B15B609EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74DB54D2-7955-40B7-B492-8A2ED139A87C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74DB54D2-7955-40B7-B492-8A2ED139A87C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74DB54D2-7955-40B7-B492-8A2ED139A87C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74DB54D2-7955-40B7-B492-8A2ED139A87C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BA739DE-FA69-4B24-B8FD-408DBD7D485F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BA739DE-FA69-4B24-B8FD-408DBD7D485F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BA739DE-FA69-4B24-B8FD-408DBD7D485F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BA739DE-FA69-4B24-B8FD-408DBD7D485F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A98DA274-2B74-4D53-84A7-227F72A78AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A98DA274-2B74-4D53-84A7-227F72A78AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A98DA274-2B74-4D53-84A7-227F72A78AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A98DA274-2B74-4D53-84A7-227F72A78AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C04897E4-421E-40C6-97D5-F95321328953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C04897E4-421E-40C6-97D5-F95321328953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C04897E4-421E-40C6-97D5-F95321328953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C04897E4-421E-40C6-97D5-F95321328953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93E94131-01EC-4E7E-8E87-333B15B609EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E94131-01EC-4E7E-8E87-333B15B609EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E94131-01EC-4E7E-8E87-333B15B609EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E94131-01EC-4E7E-8E87-333B15B609EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
