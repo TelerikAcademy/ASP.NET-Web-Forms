@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20623.1 VSUPREVIEW
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. MasterPages - Demo", "Master-Pages-Demo\1. MasterPages - Demo.csproj", "{0283667E-631E-4E17-8059-051BF9364F9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Nested-Master-Pages-Demo", "Nested-Master-Pages-Demo\2. Nested-Master-Pages-Demo.csproj", "{45E74544-361F-4AB1-B9BE-CFA3CA829A7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0283667E-631E-4E17-8059-051BF9364F9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0283667E-631E-4E17-8059-051BF9364F9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0283667E-631E-4E17-8059-051BF9364F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0283667E-631E-4E17-8059-051BF9364F9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45E74544-361F-4AB1-B9BE-CFA3CA829A7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45E74544-361F-4AB1-B9BE-CFA3CA829A7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45E74544-361F-4AB1-B9BE-CFA3CA829A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45E74544-361F-4AB1-B9BE-CFA3CA829A7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

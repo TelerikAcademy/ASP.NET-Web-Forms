@@ -1,0 +1,9 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master"
+    AutoEventWireup="true" CodeBehind="Contacts.master.cs"
+    Inherits="MasterPageDemo.Contacts" %>
+
+<asp:Content ID="ContentMain" ContentPlaceHolderID="ContentPlaceHolderMain" runat="server">
+    <h1>Contacts</h1>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderContacts" runat="server" />
+    <p>You are welcome to contact us.</p>
+</asp:Content>

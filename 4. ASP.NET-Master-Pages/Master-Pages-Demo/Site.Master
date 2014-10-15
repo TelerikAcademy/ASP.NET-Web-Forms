@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true"
+    CodeBehind="Site.master.cs" Inherits="MasterPageDemo.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+
+<head runat="server">
+    <link href="Styles.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderHeader" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="formMain" runat="server">
+        <header id="header">
+            I am the Master Header!
+        </header>
+        <aside id="sidebar">
+            <div class="sidebar-title">Menu</div>
+            <ul>
+                <li><a href="~/" runat="server">Home</a></li>
+                <li><a href="~/About.aspx" runat="server">About</a></li>
+                <li>
+                    <span>Contacts</span>
+                    <ul>
+                        <li><a  href="~/ContactsIndia.aspx" runat="server">India</a></li>
+                        <li><a href="~/ContactsBulgaria.aspx" runat="server">Bulgaria</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+        <section id="main-content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderMain" runat="server">        
+            </asp:ContentPlaceHolder>
+        </section>
+        <footer id="footer">
+            (c) 2011 by Yoda Corp.
+        </footer>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html>
+
+<html>
+
+<head runat="server">
+    <title>Telerik Software Academy – Community</title>
+    <link href="Site.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolderHeader" runat="server">
+        </asp:ContentPlaceHolder>
+        <div>Telerik Software Academy – Community Web Site</div>
+    </header>
+
+    <form id="FormMain" runat="server">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolderPageContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+
+    <footer>(c) 2013 – Telerik Software Academy</footer>
+</body>
+
+</html>
