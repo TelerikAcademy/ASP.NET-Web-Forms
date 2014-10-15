@@ -1,0 +1,39 @@
+﻿h1
+{
+    margin: 30px 0px 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+    color: #775533;
+}
+
+#BulletedListMenu
+{
+    padding: 0;
+}
+
+#BulletedListMenu li
+{
+    display: inline;
+    border: 1px #555555 dotted;
+    background-color: #EEEEEE;
+    padding: 10px;
+}
+
+#layoutTable td 
+{
+    border: 1px dotted #BBBBBB;
+    padding: 10px;
+}
+
+#CheckBoxListFood td, #RadioButtonListPayment td
+{
+    border: none;
+    padding: 0;
+}
+
+#submitButtonCell
+{
+    text-align: center;
+    text-align: center;
+}
