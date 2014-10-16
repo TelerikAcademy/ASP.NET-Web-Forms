@@ -21,13 +21,13 @@ public partial class Buttons {
     protected global::System.Web.UI.HtmlControls.HtmlForm formMain;
     
     /// <summary>
-    /// ButtonExamplе control.
+    /// ButtonExamplå control.
     /// </summary>
     /// <remarks>
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::System.Web.UI.WebControls.Button ButtonExamplе;
+    protected global::System.Web.UI.WebControls.Button ButtonExamplå;
     
     /// <summary>
     /// LinkButtonExample control.

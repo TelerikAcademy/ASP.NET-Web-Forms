@@ -17,7 +17,7 @@ public partial class PanelDemo: System.Web.UI.Page
         {
             this.PanelExample.Visible = true;
         }
-
+        
         // Generate label controls
 
         int numlabels = int.Parse(DropDownLabels.SelectedItem.Value);

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.20623.1 VSUPREVIEW
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Html-Server-Controls", "Html-Server-Controls\1. Html-Server-Controls.csproj", "{F611F9E8-5E76-49E9-A192-54E70B9C1B93}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. HTML-Escaping", "HTML-Escaping\7. HTML-Escaping.csproj", "{AF44EC58-5C13-44F2-AC9D-B2DBB2BC2560}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. List-Controls", "List-Controls\6. List-Controls.csproj", "{0FA79EC1-E99E-4F8E-A451-605229E47837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. MultiView-Example", "MultiView-Example\8. MultiView-Example.csproj", "{B72B1A06-76B5-4854-90E1-85F26DFC3203}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{0FA79EC1-E99E-4F8E-A451-605229E47837}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FA79EC1-E99E-4F8E-A451-605229E47837}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FA79EC1-E99E-4F8E-A451-605229E47837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B72B1A06-76B5-4854-90E1-85F26DFC3203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B72B1A06-76B5-4854-90E1-85F26DFC3203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B72B1A06-76B5-4854-90E1-85F26DFC3203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B72B1A06-76B5-4854-90E1-85F26DFC3203}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
