@@ -1,0 +1,35 @@
+﻿body {
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+h1 {
+    font-size: 14pt;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#ListBoxCustomers {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#FormViewCustomer {
+    display: inline-block;
+    border: 1px solid black;
+}
+
+#GridViewOrders td {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#DataListOrderDetails {
+    margin-top: -10px;
+    margin-left: -15px;
+}
+
+#DataListOrderDetails td {
+    padding: 10px;
+    border-spacing: 15px;
+}

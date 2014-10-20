@@ -1,0 +1,37 @@
+﻿.item 
+{
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    background: #CCFFCC;
+}
+
+.alternatingItem 
+{
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    background: #DDEEFF;
+}
+
+.editItem
+{
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    background: #EEFFDD;
+}
+
+.insertItem
+{
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    background: #EEFFDD;
+}
+
+.pagerLine
+{
+    text-align: center;
+    background-color: #CCCCCC;
+}
