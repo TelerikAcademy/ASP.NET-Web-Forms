@@ -15,5 +15,10 @@ namespace Html_Server_Controls
         {
             Response.Write("Value: <b>" + this.TextField.Value + "</b>");
         }
+
+        protected void Unnamed_ServerClick(object sender, EventArgs e)
+        {
+
+        }
     }
 }

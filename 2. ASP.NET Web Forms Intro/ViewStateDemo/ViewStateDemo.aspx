@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" 
     CodeBehind="ViewStateDemo.aspx.cs"
     Inherits="ViewStateDemo.ViewStateDemo"
-    EnableViewState="true" %>
+    EnableViewState="true" Debug="true" %>
 
 <!DOCTYPE html>
 

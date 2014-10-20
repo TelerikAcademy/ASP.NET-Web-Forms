@@ -1,0 +1,37 @@
+﻿body {
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+h1 {
+    font-size: 14pt;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#ListBoxCustomers {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#FormViewCustomer, #DetailsVeiwCustomer {
+    display: inline-block;
+    border: 1px solid black;
+}
+
+#GridViewOrders td {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.order-detail {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    background-color: gainsboro;
+    width: 200px;
+}
+
+    .order-detail.odd {
+        background-color: tan;
+    }

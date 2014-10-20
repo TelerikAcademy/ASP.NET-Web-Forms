@@ -181,3 +181,16 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+/2. ASP.NET Web Forms Intro/Sumator/ErrorPage.aspx
+/2. ASP.NET Web Forms Intro/Sumator/ErrorPage.aspx.cs
+/2. ASP.NET Web Forms Intro/Sumator/ErrorPage.aspx.designer.cs
+/2. ASP.NET Web Forms Intro/WebApplication1/Properties/AssemblyInfo.cs
+/2. ASP.NET Web Forms Intro/WebApplication1/Properties/Settings.Designer.cs
+/2. ASP.NET Web Forms Intro/WebApplication1/Properties/Settings.settings
+/2. ASP.NET Web Forms Intro/WebApplication1/Sumator.aspx
+/2. ASP.NET Web Forms Intro/WebApplication1/Sumator.aspx.cs
+/2. ASP.NET Web Forms Intro/WebApplication1/Sumator.aspx.designer.cs
+/2. ASP.NET Web Forms Intro/WebApplication1/Web.Debug.config
+/2. ASP.NET Web Forms Intro/WebApplication1/Web.Release.config
+/2. ASP.NET Web Forms Intro/WebApplication1/Web.config
+/2. ASP.NET Web Forms Intro/WebApplication1/WebApplication1.csproj

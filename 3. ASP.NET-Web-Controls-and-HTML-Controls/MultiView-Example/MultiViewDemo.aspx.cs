@@ -14,6 +14,11 @@ namespace MultiView_Example
 
         }
 
+        protected void DropDownList1_Load(object sender, EventArgs e)
+        {
+
+        }
+
         protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
