@@ -1,0 +1,21 @@
+﻿body {
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+#GridViewFileSystem td, th {
+    padding: 3px 7px 3px 7px;
+}
+
+#GridViewFileSystem th {
+    background: #eee;
+}
+
+#GridViewFileSystem table td {
+    padding: 0px 5px 0px 0px;
+}
+
+#ValidatorFolder {
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,16 @@
+﻿body {
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+#GridViewProducts td, th {
+    padding: 3px 7px 3px 7px;
+}
+
+#GridViewProducts th {
+    background: #eee;
+}
+
+#GridViewProducts table td {
+    padding: 0px 5px 0px 0px;
+}
