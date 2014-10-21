@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. SiteMap-and-Navigation", "SiteMap-and-Navigation\1. SiteMap-and-Navigation.csproj", "{7C943175-D8F9-40BE-AA96-CF5DBB16CF87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. SiteMap-and-Security-Trimming", "SiteMaps-and-Security-Trimming\2. SiteMap-and-Security-Trimming.csproj", "{EE868E6D-6DE7-4E01-B4D7-47CCE334DE54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteMap-VS2013-Identity", "SiteMap-VS2013-Identity\SiteMap-VS2013-Identity.csproj", "{9341CF6B-914D-44FF-A92A-D089BF7BAAF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C943175-D8F9-40BE-AA96-CF5DBB16CF87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C943175-D8F9-40BE-AA96-CF5DBB16CF87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C943175-D8F9-40BE-AA96-CF5DBB16CF87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C943175-D8F9-40BE-AA96-CF5DBB16CF87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE868E6D-6DE7-4E01-B4D7-47CCE334DE54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE868E6D-6DE7-4E01-B4D7-47CCE334DE54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE868E6D-6DE7-4E01-B4D7-47CCE334DE54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE868E6D-6DE7-4E01-B4D7-47CCE334DE54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9341CF6B-914D-44FF-A92A-D089BF7BAAF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9341CF6B-914D-44FF-A92A-D089BF7BAAF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9341CF6B-914D-44FF-A92A-D089BF7BAAF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9341CF6B-914D-44FF-A92A-D089BF7BAAF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
