@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs"
+    Inherits="Error_Handler_Control.SiteMaster" %>
+
+<%@ Register src="~/Controls/ErrorSuccessNotifier/ErrorSuccessNotifier.ascx"
+    tagname="ErrorSuccessNotifier" tagprefix="userControls" %>
+
+<!DOCTYPE html>
+
+<html>
+
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>Error Handler Control - Demo</h1>
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu"
+                  EnableViewState="false" IncludeStyleBlock="false"
+                  Orientation="Horizontal" SkipLinkText="">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/ListProducts.aspx" Text="List Products"/>
+                        <asp:MenuItem NavigateUrl="~/AddProduct.aspx" Text="Add Product"/>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main">
+            <userControls:ErrorSuccessNotifier ID="ErrorSuccessNotifier" runat="server" />
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        (c) 2011 by Telerik Academy
+    </div>
+    </form>
+</body>
+
+</html>
