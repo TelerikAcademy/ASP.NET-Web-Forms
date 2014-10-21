@@ -4,7 +4,7 @@
   <siteMapNode url="~/Default.aspx" title="Home" roles="admin,moderator">
     <siteMapNode url="~/Contact.aspx" title="Contact" />
     <siteMapNode url="~/About.aspx" title="About" />
-    <siteMapNode url="~/Products/Products.aspx" title="Products" roles="admin">
+    <siteMapNode url="~/AllProduct.aspx" title="Products" roles="admin">
       <siteMapNode url="~/Products/Default.aspx" title="Default" roles="admin" />
       <siteMapNode url="~/Products/Contact.aspx" title="Contact" roles="admin"/>
       <siteMapNode url="~/Products/About.aspx" title="About" roles="admin" />

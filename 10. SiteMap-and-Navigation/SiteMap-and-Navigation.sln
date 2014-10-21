@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. SiteMap-and-Navigation",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. SiteMap-and-Security-Trimming", "SiteMaps-and-Security-Trimming\2. SiteMap-and-Security-Trimming.csproj", "{EE868E6D-6DE7-4E01-B4D7-47CCE334DE54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteMap-VS2013-Identity", "SiteMap-VS2013-Identity\SiteMap-VS2013-Identity.csproj", "{9341CF6B-914D-44FF-A92A-D089BF7BAAF5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. SiteMap-VS2013-Identity", "SiteMap-VS2013-Identity\3. SiteMap-VS2013-Identity.csproj", "{9341CF6B-914D-44FF-A92A-D089BF7BAAF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

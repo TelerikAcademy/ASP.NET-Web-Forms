@@ -172,6 +172,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="AllProduct.aspx" />
     <Content Include="Products\About.aspx" />
     <Content Include="Products\Contact.aspx" />
     <Content Include="Products\Default.aspx" />
@@ -362,6 +363,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="AllProduct.aspx.cs">
+      <DependentUpon>AllProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllProduct.aspx.designer.cs">
+      <DependentUpon>AllProduct.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Products\About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
