@@ -1,0 +1,26 @@
+﻿body
+{
+	background-color: #EEEEEE;
+	margin: 0;
+	padding: 0;
+}
+
+p
+{
+	font-size: 16pt;
+	margin: 10px;
+}
+
+#UpdatePanelTime
+{
+	width: 500px;
+	background: white;
+	border:3px solid red;
+	display:block;
+	font-family:Arial;
+	font-size:20pt;
+	font-weight:bold;
+	padding: 30px;
+	margin: 30px;
+	text-align:center;
+}
