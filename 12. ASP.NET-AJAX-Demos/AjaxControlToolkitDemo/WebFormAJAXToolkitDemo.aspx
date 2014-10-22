@@ -19,7 +19,7 @@
 <body>
     <form id="formMain" runat="server">
         <asp:ScriptManager ID="ScriptManager" runat="server" />
-        <ajaxtoolkit:Editor ID="Editor" runat="server" />
+        <ajaxtoolkit:Edit ID="Editor" runat="server" />
     </form>
 </body>
 

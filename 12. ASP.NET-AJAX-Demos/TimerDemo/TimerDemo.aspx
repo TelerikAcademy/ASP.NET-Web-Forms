@@ -20,7 +20,7 @@
             </Triggers>
             <ContentTemplate>
                 AJAX Timer updates per 3 seconds:
-                <%= DateTime.Now.ToString("hh:mm:ss") %>
+                <%= DateTime.Now.ToString("HH:mm:ss") %>
             </ContentTemplate>
         </asp:UpdatePanel>
         <asp:Timer ID="TimerTimeRefresh" runat="Server" Interval="3000" />
