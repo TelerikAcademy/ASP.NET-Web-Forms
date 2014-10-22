@@ -18,7 +18,8 @@
 
 <body>
     <form id="formMain" runat="server">
-        <asp:ScriptManager ID="ScriptManager" runat="server" />
+        <ajaxtoolkit:ToolkitScriptManager runat="Server" />
+
         <ajaxtoolkit:Editor ID="Editor" Height="300px" 
         Width="100%" AutoFocus="true" runat="server" />
     </form>
