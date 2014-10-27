@@ -15,5 +15,10 @@ namespace UserControlsExample
             this.LabelInfo.Visible = true;
             this.LabelInfo.Text = "changed";
         }
+
+        protected void NumBox_ValueChanged()
+        {
+
+        }
     }
 }
