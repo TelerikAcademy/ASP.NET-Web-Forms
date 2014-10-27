@@ -143,10 +143,13 @@ namespace Error_Handler_Control
                         msgPanel.CssClass += " AutoHide";
                     }
                     msgPanel.ID = msg.Type + "Msg" + index;
+
                     Literal msgLiteral = new Literal();
                     msgLiteral.Mode = LiteralMode.Encode;
                     msgLiteral.Text = msg.Text;
+
                     msgPanel.Controls.Add(msgLiteral);
+
                     this.Controls.Add(msgPanel);
                     index++;
                 }

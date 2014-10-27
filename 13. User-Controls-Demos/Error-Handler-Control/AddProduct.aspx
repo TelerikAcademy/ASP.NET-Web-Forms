@@ -7,6 +7,9 @@
     <h1>Add a Product</h1>
     <asp:Button Text="Add a Product (Successfully)" runat="server" 
     ID="ButtonAddSuccess" onclick="ButtonAddSuccess_Click" />
+
     <asp:Button Text="Add a Product (Error)" runat="server" ID="ButtonAddError" 
     onclick="ButtonAddError_Click" />
+
+    <asp:Button Text="New Error" runat="server" ID="ButtonNewError" OnClick="ButtonNewError_Click" />
 </asp:Content>

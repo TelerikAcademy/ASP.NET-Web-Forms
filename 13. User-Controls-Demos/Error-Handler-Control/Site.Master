@@ -32,8 +32,8 @@
             </div>
         </div>
         <div class="main">
-            <userControls:ErrorSuccessNotifier ID="ErrorSuccessNotifier" runat="server" />
             <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+            <userControls:ErrorSuccessNotifier ID="ErrorSuccessNotifier" runat="server" />
         </div>
         <div class="clear">
         </div>

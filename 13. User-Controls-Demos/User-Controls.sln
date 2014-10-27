@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Web-User-Controls-Demo", "Web-User-Controls-Demo\1. Web-User-Controls-Demo.csproj", "{A590EFC4-465B-4DA8-8E27-F69AF231E1DD}"
 EndProject
@@ -12,6 +12,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. NumericBox", "NumericBox\2. NumericBox.csproj", "{11DE3645-9A33-4B79-952C-1E68035E346B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. LikeUserControl", "LikeUserControl\5. LikeUserControl.csproj", "{A072D7B3-F54E-4E6A-8891-CFCF8E2C8B13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoUserControl", "DemoUserControl\DemoUserControl.csproj", "{4F78531E-0CDC-4388-AB47-592835A57C99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LikesDemo", "LikesDemo\LikesDemo.csproj", "{4724C1D1-76CE-4192-8D3E-930B7C6D129F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{A072D7B3-F54E-4E6A-8891-CFCF8E2C8B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A072D7B3-F54E-4E6A-8891-CFCF8E2C8B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A072D7B3-F54E-4E6A-8891-CFCF8E2C8B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F78531E-0CDC-4388-AB47-592835A57C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F78531E-0CDC-4388-AB47-592835A57C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F78531E-0CDC-4388-AB47-592835A57C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F78531E-0CDC-4388-AB47-592835A57C99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4724C1D1-76CE-4192-8D3E-930B7C6D129F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4724C1D1-76CE-4192-8D3E-930B7C6D129F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4724C1D1-76CE-4192-8D3E-930B7C6D129F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4724C1D1-76CE-4192-8D3E-930B7C6D129F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

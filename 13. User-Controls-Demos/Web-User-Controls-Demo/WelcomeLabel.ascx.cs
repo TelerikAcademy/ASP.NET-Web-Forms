@@ -48,24 +48,24 @@ namespace Custom_Controls_Demo
 
         protected void Page_Prerender(object sender, EventArgs e)
         {
-			this.LabelWelcome.Attributes["onmouseover"] =
-				"changeColor(this,'" + ToWebColor(this.AlternateColor) + "')";
-			this.LabelWelcome.Attributes["onmouseout"] =
-				"changeColor(this,'" + ToWebColor(this.Color) + "')";
-		}
+            this.LabelWelcome.Attributes["onmouseover"] =
+                "changeColor(this,'" + ToWebColor(this.AlternateColor) + "')";
+            this.LabelWelcome.Attributes["onmouseout"] =
+                "changeColor(this,'" + ToWebColor(this.Color) + "')";
+        }
 
-		private string ToWebColor(Color color)
-		{
-			if (color.IsNamedColor)
-			{
-				return color.Name;
-			}
-			else
-			{
-				return String.Format(
-					"#{0:x}{1:x}{2:x}",
-					color.R, color.G, color.B);
-			}
-		}
+        private string ToWebColor(Color color)
+        {
+            if (color.IsNamedColor)
+            {
+                return color.Name;
+            }
+            else
+            {
+                return String.Format(
+                    "#{0:x}{1:x}{2:x}",
+                    color.R, color.G, color.B);
+            }
+        }
     }
 }

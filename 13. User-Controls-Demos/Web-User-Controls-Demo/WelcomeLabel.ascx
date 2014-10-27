@@ -6,9 +6,6 @@
     function changeColor(sender, color) {
         sender.style.color = color;
     }
-    function restoreColor(sender, color) {
-        sender.style.color = color;
-    }
 </script>
 
 <asp:Label ID="LabelWelcome" runat="server" />

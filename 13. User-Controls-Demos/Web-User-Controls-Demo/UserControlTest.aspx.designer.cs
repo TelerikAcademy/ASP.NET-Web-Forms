@@ -21,13 +21,13 @@ public partial class UserControlTest {
     protected global::System.Web.UI.HtmlControls.HtmlForm formUserControls;
     
     /// <summary>
-    /// WelcomeLabelPeter control.
+    /// WelcomeLabel control.
     /// </summary>
     /// <remarks>
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::Custom_Controls_Demo.WelcomeLabel WelcomeLabelPeter;
+    protected global::Custom_Controls_Demo.WelcomeLabel WelcomeLabel;
     
     /// <summary>
     /// WelcomeLabelMaria control.
