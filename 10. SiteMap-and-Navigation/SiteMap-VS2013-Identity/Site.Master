@@ -81,6 +81,7 @@
             </div>
         </div>
         <div class="container body-content">
+        <div class="row breadcrumb"><asp:SiteMapPath runat="server" ID="SMPath" /></div>
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
