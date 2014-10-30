@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
-  <siteMapNode url="~/Default.aspx" title="Home" roles="admin,moderator">
-    <siteMapNode url="~/Contact.aspx" title="Contact" />
-    <siteMapNode url="~/About.aspx" title="About" />
-    <siteMapNode url="~/AllProduct.aspx" title="Products" roles="admin">
-      <siteMapNode url="~/Products/Default.aspx" title="Default" roles="admin" />
-      <siteMapNode url="~/Products/Contact.aspx" title="Contact" roles="admin"/>
-      <siteMapNode url="~/Products/About.aspx" title="About" roles="admin" />
+  <siteMapNode url="~/Default" title="Home" roles="admin,moderator">
+    <siteMapNode url="~/Contact" title="Contact" />
+    <siteMapNode url="~/About" title="About" />
+    <siteMapNode url="~/AllProduct" title="Products" roles="admin">
+      <siteMapNode url="~/Products/Default" title="Default" roles="admin" />
+      <siteMapNode url="~/Products/Contact" title="Contact" roles="admin"/>
+      <siteMapNode url="~/Products/About" title="About" roles="admin" />
     </siteMapNode>
-    <siteMapNode url="~/Services/Services.aspx" title="Services"  roles="moderator" >
-      <siteMapNode url="~/Services/Default.aspx" title="Default" roles="moderator" />
-      <siteMapNode url="~/Services/Contact.aspx" title="Contact" roles="moderator" />
-      <siteMapNode url="~/Services/About.aspx" title="About" roles="moderator" />
+    <siteMapNode url="~/Services/Services" title="Services"  roles="moderator" >
+      <siteMapNode url="~/Services/Default" title="Default" roles="moderator" />
+      <siteMapNode url="~/Services/Contact" title="Contact" roles="moderator" />
+      <siteMapNode url="~/Services/About" title="About" roles="moderator" />
     </siteMapNode>
   </siteMapNode>
 </siteMap>
