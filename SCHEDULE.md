@@ -12,9 +12,9 @@
 | 08 | Сесии и управление на състоянието        | 2h       | Thu | 21.01 | 19:30 | Ivo      |
 | 09 | Site maps и навигация                    | 1h       | Fri | 22.01 |       |          |
 | 10 | Контроли за валидация                    | 1h       | Fri | 22.01 |       |          |
-| 11 | ASP.NET AJAX                             | 1h       | Fri | 22.01 |       |          |
+| 11 | ASP.NET AJAX                             | 1h       | Fri | 22.01 |       | Niki     |
 | 12 | Потребителски контроли (ASCX controls)   | 2h       | Mon | 25.01 |       |          |
-| 13 | ASP.NET Identity                         | 3h       | Tue | 26.01 |       | Ivo      |
-| -- | Подготовка за изпит                      | all day  | Wed | 27.01 | 10:00 |          |
+| 13 | ASP.NET Identity                         | 3h       | Tue | 26.01 | 18:00 | Ivo      |
+| -- | Подготовка за изпит                      | all day  | Wed | 27.01 | 10:00 | Koceto   |
 | -- | Защита на отборни проекти                | all day  | Thu | 28.01 | 10:00 | Trainers |
 | -- | Практически изпит                        | all day  | Fri | 29.01 | 10:00 | Trainers |
