@@ -1,0 +1,24 @@
+Да се отделят в отделни теми отделните секции:
+
+Add an example and exercises about writing custom controls, e.g. NumericUpDown or DateTimePicker.
+
+Да се добави пример как може да се декларира контрола с две полета и бутон и как може тези полета да се покажат като properties и как може да се направи event за хващане на клик върху бутона. Имаме такова демо всъщност - NumericBox.rar. Да се интегрира.
+
+------------------
+
+В контролата за нотификации да се поправи следния проблем:
+
+This line of code would lead to unexpexted behavour if a newer jQuery version is used in the application:
+if (!cs.IsStartupScriptRegistered( … jquery-1.3.2.js … ))
+
+I suggest you check if jQuery is included at runtime in a JS Client side code:
+
+if (typeof(jQuery) == ‘undefined’) {
+var jQueryScript = document.createElement(‘script’);
+jQueryScript.src = ‘http://code.jquery.com/jquery-1.6.1.js';
+jQueryScript.type = ‘text/javascript’;
+document.body.appendChild(jQueryScript);
+}
+
+This will check if *any* version of jQuery is used and inject 1.6.1 if jQuery is not found.
+

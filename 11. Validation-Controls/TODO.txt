@@ -1,0 +1,3 @@
+Да се добави примерче с CustomValidator и ClientValidationFunction.
+
+Да се добави пример за model binding валидация с новите контроли.

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://localhost:51332/Admin/Articles -->
+<html lang="en">
+<head>
+	 <meta charset="utf-8">
+	 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <title>
+		 Edit Articles - My ASP.NET Application
+	</title>
+	<script src="./ViewArticle - My ASP.NET Application_files/modernizr"></script>
+	<link href=".\Styles\bootstrap.min.css" rel="stylesheet">
+	<link href=".\Styles\Site.css" rel="stylesheet">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href=".\News.html" class="navbar-brand">News Site</a>
+			</div>
+			<div class="navbar-collapse collapse">
+
+				<ul class="nav navbar-nav">                        
+					<li><a href=".\Edit%20Categories.html">Categories</a></li>
+					<li><a href=".\Edit%20Articles.html">Articles</a></li>                            
+				</ul>                    
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#" title="Manage your account"></a></li>
+					<li><a href="#">Register</a></li>
+					<li><a href="#">Login</a></li>
+				</ul>                        
+			</div>
+		</div>
+	</div>
+
+	<div class="container body-content">    
+		<div class="row">
+			<a class="col-md-2 btn btn-default" >Sort by Title</a>
+			<a class="col-md-2 btn btn-default" >Sort by Date</a>
+			<a class="col-md-2 btn btn-default" >Sort by Category</a>
+			<a class="col-md-2 btn btn-default" >Sort by Likes</a>
+		</div>
+            
+		<div class="row">
+			<h3>What is Lorem Ipsum?
+				<a class="btn btn-info" href="#">Edit</a>
+				<a class="btn btn-danger" href="#">Delete</a>
+			</h3>
+			<p>Category: Economy</p>
+			<p>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;amp;amp;amp;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie...
+			</p>
+			<p>Likes count: 0</p>
+			<div>
+				<i>by Anonimous</i>
+				<i>created on: 10/31/2014 11:02:29 AM</i>
+			</div>
+		</div>
+        
+		<div class="row">
+			<h3>Why do we use it?
+				<a class="btn btn-info " href="#">Edit</a>
+				<a class="btn btn-danger" href="#">Delete</a>
+			</h3>
+			<p>Category: Economy</p>
+			<p>
+				It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;amp;amp;amp;#39;Content here, content here&amp;amp;amp;amp;#39;, ...
+			</p>
+			<p>Likes count: 0</p>
+			<div>
+				<i>by Anonimous</i>
+				<i>created on: 10/30/2014 11:02:29 AM</i>
+			</div>
+		</div>
+	
+		<div class="row">
+			<h3>Where does it come from?
+				<a class="btn btn-info " href="#">Edit</a>
+				<a class="btn btn-danger" href="#">Delete</a>
+			</h3>
+			<p>Category: Education</p>
+			<p>
+				Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,...
+			</p>
+			<p>Likes count: 0</p>
+			<div>
+				<i>by Anonimous</i>
+				<i>created on: 10/31/2014 11:02:29 AM</i>
+			</div>
+		</div>
+		
+		<a href="#" style="display: none;" class="btn btn-info pull-right" onclick="(function (ev) { $('#panelInsertArticle').show(); $('#buttonShowInsertPanel').hide(); }())">Insert new Article</a>
+		<div>
+			<div class="row">
+				<h3>Title: 
+				<input type="text" style="width:300px;">
+				</h3>
+				<p>
+					Category: 
+					<select id="MainContent_ListViewArticles_DropDownListCategories">
+						<option value="5">Art</option>
+						<option value="1">Economy</option>
+						<option value="2">Education</option>
+						<option value="4">Science</option>
+						<option value="3">Sports</option>
+						<option value="6">Technology</option>
+						<option value="7">Weather</option>
+					</select>
+				</p>
+				<p>
+					Content: 
+				<textarea rows="6" cols="20" style="width:300px;"></textarea>
+				</p>
+				<div>
+					<a class="btn btn-success" href=".\Edit%20Articles.html">Insert</a>
+					<a class="btn btn-danger" href=".\Edit%20Articles.html">Cancel</a>
+				</div>
+			</div>
+		</div>
+	
+		<div class="row">
+			<span><a class="aspNetDisabled">Previous</a>&nbsp;<span>1</span>&nbsp;<a href="#">2</a>&nbsp;<a href="#">Next</a>&nbsp;</span>
+		</div>
+	
+
+
+		<hr>
+		<footer>
+			<p>© 2014 - My ASP.NET Application</p>
+		</footer>
+	</div>
+	
+</body></html>

@@ -1,0 +1,19 @@
+Hi guys,
+
+I graduated from the academy last year and I would like to give some feedback in relation to the Asp.net development track.
+
+I would like to suggest introducing the topic: Creating Asp.net Custom server controls. They are widely used in Sitefinity and the Asp teams.
+Because Custom server controls is a huge topic, I suggest focusing on mainly: 
+1.	Creating controls that inherit from WebControl & IScriptControl. ( here is a good topic on the matter http://msdn.microsoft.com/en-us/library/bb386450.aspx)
+2.	Implementing Client side functionality for the server control. 
+a.	Creating the Javascript class, that corresponds to the server control.
+b.	Implementing Js events, delegates, properties, inheritance etc.. 
+c.	Client side data binding to Wcf Rest services.
+
+If you have any questions regarding this email, please do not hesitate to contact me.
+
+Best regards,
+Martin Gebov
+Junior Software Developer
+Sitefinity Team 1
+E-mail: Martin.Gebov@telerik.com
