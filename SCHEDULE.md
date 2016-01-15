@@ -4,8 +4,8 @@
 | 00 | Въведение в курса                        | 0.5h     | Mon | 18.01 | 17:00 | Niki     |
 | 01 | Въведение в ASP.NET                      | 2h       | Mon | 18.01 | 18:00 | Niki     |
 | 02 | Въведение в ASP.NET WebForms             | 1.5h     | Mon | 18.01 | 20:00 | Niki     |
-| 03 | Уеб и HTML контроли                      | 2h       | Tue | 19.01 | 18:00 | Koceto   |
-| 04 | Master Страници                          | 0.5h     | Tue | 19.01 | 20:30 | Koceto   |
+| 03 | Уеб и HTML контроли                      | 2h       | Tue | 19.01 | 19:00 | Koceto   |
+| 04 | Master Страници                          | 0.5h     | Tue | 19.01 | 21:30 | Koceto   |
 | 05 | Data Binding и Data контроли             | 2.5h     | Wed | 20.01 | 10:00 | Evlogi   |
 | 06 | Data source контроли и model binding     | 3h       | Wed | 20.01 | 13:30 | Evlogi   |
 | 07 | File Upload и Телерик контроли за Upload | 1h       | Thu | 21.01 | 18:00 | Ivo      |
