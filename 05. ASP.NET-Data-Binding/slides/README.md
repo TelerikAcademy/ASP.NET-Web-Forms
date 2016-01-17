@@ -605,7 +605,7 @@ protected void Page_Load(object sender, EventArgs e)
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # ListView – Templates and Groups
 
-<img class="slide-image" src="imgs/listview-templates-groups.PNG" style="width:80%; top:15%; left:10%" />
+<img class="slide-image" src="imgs/listview-templates-groups.png" style="width:80%; top:15%; left:10%" />
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # DataPager
@@ -616,7 +616,7 @@ protected void Page_Load(object sender, EventArgs e)
   - `NumericPagerField`
   - `TemplatePagerField`
 
-<img class="slide-image" src="imgs/pager.PNG" style="width:45%; top:41%; left:40%" />
+<img class="slide-image" src="imgs/pager.png" style="width:45%; top:41%; left:40%" />
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <!-- # ListView and DataPager -->

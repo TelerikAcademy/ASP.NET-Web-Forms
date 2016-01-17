@@ -1,3 +1,3 @@
 ## .mds
-### [View Presentation online](https://rawgit.com/TelerikAcademy/ASP.NET-Web-Forms/master/.mds/slides/index.html)
+### [View Presentation online](https://cdn.rawgit.com/TelerikAcademy/ASP.NET-Web-Forms/master/10.%20SiteMap-and-Navigation/slides/index.html)
 ### Table of Contents

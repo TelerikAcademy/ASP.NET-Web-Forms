@@ -35,14 +35,14 @@
 - `Navigation`
 - The navigation is shared between all pages:
 
-<img class="slide-image" src="imgs/shared-nav-snapshot.PNG" style="width:80%; top:30%; left:10%" />
+<img class="slide-image" src="imgs/shared-nav-snapshot.png" style="width:80%; top:30%; left:10%" />
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # The Master Page – Sections (3)
 - `Footer`
 - The footer is also shared between all pages:
 
-<img class="slide-image" src="imgs/shared-footer-snapshot.PNG" style="width:80%; top:30%; left:10%" />
+<img class="slide-image" src="imgs/shared-footer-snapshot.png" style="width:80%; top:30%; left:10%" />
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 - `Content`
@@ -79,7 +79,7 @@
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Master and Content Pages –  Mechanics
 
-<img class="slide-image" src="imgs/master-and-content-pages.PNG" style="width:80%; top:25%; left:10%" />
+<img class="slide-image" src="imgs/master-and-content-pages.png" style="width:80%; top:25%; left:10%" />
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->

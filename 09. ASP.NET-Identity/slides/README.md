@@ -312,7 +312,7 @@ C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\ aspnet_regsql.exe
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # The Standard ASP.NET Applications Database Schema
 
-<img class="slide-image" src="imgs/aspnet-app-db-schema.PNG" style="width:90%; top:25%; left:5%" />
+<img class="slide-image" src="imgs/aspnet-app-db-schema.png" style="width:90%; top:25%; left:5%" />
 
 <!-- attr: { showInPresentation:true, style:'' } -->
 # ASP.NET Membership API
