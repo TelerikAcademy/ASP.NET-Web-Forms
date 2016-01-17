@@ -31,7 +31,6 @@
 - `ASP.NET Web Forms` Course
   - Continuation of courses about .NET Framework Web Platforms
     - We've already studied WCF and ASP.NET WebAPI
-	- Looking forward to ASP.NET Web Forms and ASP.NET MVC
 - Lectures 5 times a week
 - The course exam?
   - Practical exam (with peer evaluation)
@@ -232,7 +231,7 @@
 
 <!-- attr: {style: "font-size:40px", hasScriptWrapper: true} -->
 # The Trainers Team
-<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/revealjs-theme/css/imgs/nikolay-kostov.png" style="float:right" height="200" />
+<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/revealjs-theme/css/imgs/nikolay-kostov.png" style="float:right" height="240" />
 -   **Nikolay Kostov**
 	-   Manager Software Engineering<br />@ Telerik (Progress)
 	-   Microsoft Certified Trainer (MCT)
@@ -257,13 +256,13 @@
 
 <!-- attr: {style: "font-size:40px", hasScriptWrapper: true} -->
 # The Trainers Team
-<img src="https://avatars1.githubusercontent.com/u/10573234" style="float:right" height="240" />
+<img src="https://avatars1.githubusercontent.com/u/10573234" style="float:right" height="200" />
 -   **Konstantin Simeonov**
 	-   Technical Trainer @ Telerik Academy
 	-   Student in the sixth season
 	<br />of Telerik Software Academy
 	-   Email: konstantin.simeonov [at] telerik.com
-	-   GitHub: <a href="https://github.com/KonstantinSimeonov" title="https://github.com/KonstantinSimeonov" target="_blank">https://github.com/KonstantinSimeonov</a>
+	-   GitHub: <a href="https://github.com/KonstantinSimeonov" title="https://github.com/KonstantinSimeonov" target="_blank">github.com/KonstantinSimeonov</a>
 
 <!-- attr: {hasScriptWrapper: true} -->
 # The Trainers Team
@@ -337,7 +336,7 @@
 
 # Required Software
 -	Software needed for this course:
-  -	Microsoft Windows (Win8.1 / Win10) or any OS of your choice
+  -	Microsoft Windows (Win8.1 / Win10)
   - Visual Studio 2015 (with Update 1)
   - Microsoft SQL Server 2014
 
