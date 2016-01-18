@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace Web_Server_Controls
+﻿namespace Web_Server_Controls
 {
+    using System;
+
     public partial class WebServerControls : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)

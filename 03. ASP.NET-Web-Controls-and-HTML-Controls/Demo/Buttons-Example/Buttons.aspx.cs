@@ -10,7 +10,13 @@ public partial class Buttons : System.Web.UI.Page
 
     protected void OnBtnClick(object sender, EventArgs e)
     {
-        IButtonControl clickedButton = (IButtonControl)sender;
+        var clickedButton = sender as IButtonControl;
+
+        if(clickedButton == null)
+        {
+            return;
+        }
+
         this.LabelMessage.Text = "Button '" + sender + "' clicked!";
     }
 

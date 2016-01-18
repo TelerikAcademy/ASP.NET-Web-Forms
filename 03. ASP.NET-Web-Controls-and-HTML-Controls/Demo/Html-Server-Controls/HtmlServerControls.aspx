@@ -19,14 +19,14 @@
         <div runat="server" id="divContainer">
             <input type="text" runat="server" />
             <input type="button" runat="server" value="Submit"
-                onclick="btnClick"
+                onclick="btnClick();"
                 onserverclick="Unnamed_ServerClick" />
         </div>
     </form>
 
     <script type="text/javascript">
         function btnClick(ev) {
-            console.log(this);
+            alert('hello from client click!');
         }
     </script>
 </body>
