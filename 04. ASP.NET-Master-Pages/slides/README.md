@@ -133,11 +133,6 @@ Page.MasterPageFile = "~/SiteLayout.master";
 <img class="slide-image" src="imgs/questions.png" style="width:80%; top:10%; left:10%" />
 <div style="position: absolute; bottom: 1em; right: 0; font-size: 26px;">http://academy.telerik.com</div>
 
-<!-- attr: { showInPresentation:true, style:'font-size: 40px' } -->
-# Exercises
-- Implement a simple Web Forms application using `master pages`. The application should be like a user profile – separate pages for Personal Info, Friends, Additional Info, etc. + Sidebar for navigation.
-- Implement a Web Forms application using `nested master pages`. It should be a Web site of international company. You should have `master layout page `and few different `nested master pages `for each country and few content pages in different language, for each country. Define "Home", "About" and "Contacts" pages for each country using its master page.
-
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size: 40px' } -->
 # Free Trainings @ Telerik Academy
 - "Web Design with HTML 5, CSS 3 and JavaScript" course @ Telerik Academy
