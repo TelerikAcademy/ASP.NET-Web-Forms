@@ -227,7 +227,7 @@ http://en.wikipedia.org/wiki/List_of_Ajax_frameworks
 - `ModalPopup`: shows a modal popup dialog
 - ... and many more ...
 - Home Page:
-  - `http://asp.net/ajax/ajaxcontroltoolkit/`
+  - `https://www.devexpress.com/Products/AJAX-Control-Toolkit/`
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <!-- # AJAX Control Toolkit -->
