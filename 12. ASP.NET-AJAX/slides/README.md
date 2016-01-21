@@ -2,9 +2,9 @@
 <!-- attr: { class:'slide-title', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # ASP.NET AJAX – Basics
 <div class="signature">
-    <p class="signature-course">Telerik Software Academy</p>
-    <p class="signature-initiative">http://academy.telerik.com </p>
-    <a href = "ASP.NET Web Forms" class="signature-link">ASP.NET Web Forms</a>
+    <p class="signature-course">ASP.NET Web Forms</p>
+    <p class="signature-initiative">Telerik Software Academy</p>
+    <a href="http://academy.telerik.com" class="signature-link">http://academy.telerik.com</a>
 </div>
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
@@ -13,9 +13,9 @@
   - AJAX Concept
   - ASP.NET AJAX Framework
 - ASP.NET AJAX Server Controls
-  - ScriptManager, UpdatePanel
-  - Timer, Update Progress
-  - Triggers
+  - `ScriptManager`, `UpdatePanel`
+  - `Timer`, `UpdateProgress`
+  - `Triggers`
 - ASP.NET AJAX Control Toolkit
 
 <!-- section start -->
@@ -40,7 +40,7 @@ http://en.wikipedia.org/wiki/List_of_Ajax_frameworks
 - `AJAX` enables you to pass information between a Web browser and Web server without refreshing the entire Web page
   - Done by asynchronous JavaScript HTTP requests and dynamic page updates
 
-<img class="slide-image" src="imgs/browser-server.png" style="width:80%; top:50%; left:10%" />
+<img class="slide-image" src="imgs/browser-server.PNG" style="width:80%; top:50%; left:10%" />
 
 <!-- attr: { showInPresentation:true, style:'' } -->
 # AJAX Technology Components
@@ -86,7 +86,7 @@ http://en.wikipedia.org/wiki/List_of_Ajax_frameworks
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # ASP.NET AJAX Architecture
 
-<img class="slide-image" src="imgs/asp-ajax-architecture.png" style="width:80%; top:10%; left:10%" />
+<img class="slide-image" src="imgs/asp-ajax-architecture.PNG" style="width:80%; top:10%; left:10%" />
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
@@ -221,11 +221,11 @@ http://en.wikipedia.org/wiki/List_of_Ajax_frameworks
   - `CollaspiblePanel – `panels that collapse and expand without postbacks
 
 <!-- attr: { showInPresentation:true, style:'' } -->
-# ASP.NET AJAX Control Toolkit (2)
-  - `ConfirmButton`: extender adding a confirm dialog to any `Button`, `LinkButton`, or `ImageButton` control 
-  - `DragPanel`: makes any panel into an object that you can drag around the page
-  - `ModalPopup`: shows a modal popup dialog
-  - ... and many more ...
+# ASP.NET AJAX Control Toolkit
+- `ConfirmButton`: extender adding a confirm dialog to any `Button`, `LinkButton`, or `ImageButton` control 
+- `DragPanel`: makes any panel into an object that you can drag around the page
+- `ModalPopup`: shows a modal popup dialog
+- ... and many more ...
 - Home Page:
   - `http://asp.net/ajax/ajaxcontroltoolkit/`
 
@@ -236,22 +236,5 @@ http://en.wikipedia.org/wiki/List_of_Ajax_frameworks
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # ASP.NET AJAX Basics
 
-
 <img class="slide-image" src="imgs/questions.png" style="width:80%; top:15%; left:10%" />
 <div style="position: absolute; bottom: 1em; right: 0; font-size: 26px;">http://academy.telerik.com</div>
-
-<!-- attr: { showInPresentation:true, style:'' } -->
-# Exercises (1.1)
-- Create an AJAX-enabled Web site which shows `Employees` and their `Orders` in two `GridView` controls (use the `Northwind` database and Entity Framework). Put the `GridView` for the orders inside an update panel. Add `UpdateProgress` which shows an image while loading (simulate slow loading with `Thread.Sleep()`).
-
-<!-- attr: { showInPresentation:true, style:'' } -->
-# Exercises (1.2)
-  - When the user selects a row in employees `GridView`, the `UpdateProgress` must be activated and the panel must be updated with the orders of the selected `Employee`.   
-
-<!-- attr: { showInPresentation:true, style:'' } -->
-# Exercises (2.1)
-- Using `Timer` and `UpdatePanel` implement very simple Web-based chat application. Use a single database table `Messages` holding all chat messages. All users should see in a `ListView` the last 100 lines of the `Messages` table. Users can send new messages at any time and should see the messages posted by the others at interval of 500 milliseconds.
-
-<!-- attr: { showInPresentation:true, style:'' } -->
-# Exercises (2.2)
-- Using the AJAX Control Toolkit create a Web photo album showing a list of images (stored in the file system). Clicking an image should show it with bigger size in a modal popup window. The album should look like the Windows Photo Viewer.
