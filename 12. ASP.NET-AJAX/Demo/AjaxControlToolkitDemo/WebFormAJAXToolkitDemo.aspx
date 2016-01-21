@@ -4,7 +4,7 @@
 %>
 
 <%@ Register Assembly="AjaxControlToolkit"
-    Namespace="AjaxControlToolkit.HTMLEditor"
+    Namespace="AjaxControlToolkit"
     TagPrefix="ajaxtoolkit" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
@@ -18,9 +18,9 @@
 
 <body>
     <form id="formMain" runat="server">
-        <ajaxtoolkit:ToolkitScriptManager runat="Server" />
+        <asp:ScriptManager runat="Server" />
 
-        <ajaxtoolkit:Editor ID="Editor" Height="300px" 
+        <ajaxtoolkit:HtmlEditor.Editor ID="Editor" Height="300px" 
         Width="100%" AutoFocus="true" runat="server" />
     </form>
 </body>

@@ -1,41 +1,42 @@
 using System;
 using System.Linq;
-using System.Data;
+using System.Threading;
+
 using FullVsPartialPostbacks;
 
 public partial class PostBacksDemo : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        if (!Page.IsPostBack)
+        if (!this.Page.IsPostBack)
         {
-            CountriesDataContext context = new CountriesDataContext();
-            DropDownListCountries.DataSource = context.Countries;
-            DropDownListCountries.DataBind();
-            RebindTowns();
+            var context = new CountriesDataContext();
+            this.DropDownListCountries.DataSource = context.Countries;
+            this.DropDownListCountries.DataBind();
+            this.RebindTowns();
         }
     }
 
     protected void DropDownListCountries_Changed(object sender, EventArgs e)
     {
         System.Threading.Thread.Sleep(3000);
-        RebindTowns();
+        this.RebindTowns();
     }
 
     private void RebindTowns()
     {
-        int countryId = int.Parse(DropDownListCountries.SelectedValue);
-        CountriesDataContext context = new CountriesDataContext();
+        var countryId = int.Parse(this.DropDownListCountries.SelectedValue);
+        var context = new CountriesDataContext();
         var towns =
             from town in context.Towns
             where town.CountryID == countryId
             select town;
-        DropDownListTowns.DataSource = towns;
-        DropDownListTowns.DataBind();
+        this.DropDownListTowns.DataSource = towns;
+        this.DropDownListTowns.DataBind();
     }
 
     protected void ButtonPartialPostBack_Click(object sender, EventArgs e)
     {
-        System.Threading.Thread.Sleep(3000);
+        Thread.Sleep(3000);
     }
 }

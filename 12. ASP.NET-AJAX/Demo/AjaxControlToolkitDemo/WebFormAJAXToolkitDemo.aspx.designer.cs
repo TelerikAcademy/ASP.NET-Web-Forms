@@ -28,6 +28,6 @@ namespace AjaxControlToolkitDemo {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::AjaxControlToolkit.HTMLEditor.Editor Editor;
+        protected global::AjaxControlToolkit.HtmlEditor.Editor Editor;
     }
 }

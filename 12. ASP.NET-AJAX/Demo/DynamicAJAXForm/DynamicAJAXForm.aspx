@@ -72,7 +72,12 @@
                 </asp:Panel>
             </ContentTemplate>
         </asp:UpdatePanel>
-
+        
+        <asp:UpdatePanel runat="server" UpdateMode="Conditional" ID="LastUpdatePanel">
+            <ContentTemplate>
+                I am the last update panel. Time updated: <%= DateTime.Now %>
+            </ContentTemplate>
+        </asp:UpdatePanel>
     </form>
 </body>
 
