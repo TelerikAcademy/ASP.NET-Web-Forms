@@ -1,4 +1,4 @@
-# Introduction to ASP.NET Homework
+# ASP.NET AJAX Homework
 
 1. Create an AJAX-enabled Web site which shows `Employees` and their `Orders` in two `GridView` controls (use the `Northwind` database and Entity Framework). Put the `GridView` for the orders inside an update panel. Add `UpdateProgress` which shows an image while loading (simulate slow loading with `Thread.Sleep()`).
     * When the user selects a row in employees `GridView`, the `UpdateProgress` must be activated and the panel must be updated with the orders of the selected `Employee`.   
