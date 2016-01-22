@@ -40,7 +40,7 @@ http://en.wikipedia.org/wiki/List_of_Ajax_frameworks
 - `AJAX` enables you to pass information between a Web browser and Web server without refreshing the entire Web page
   - Done by asynchronous JavaScript HTTP requests and dynamic page updates
 
-<img class="slide-image" src="imgs/browser-server.PNG" style="width:80%; top:50%; left:10%" />
+<img class="slide-image" src="imgs/browser-server.png" style="width:80%; top:50%; left:10%" />
 
 <!-- attr: { showInPresentation:true, style:'' } -->
 # AJAX Technology Components
@@ -86,7 +86,7 @@ http://en.wikipedia.org/wiki/List_of_Ajax_frameworks
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # ASP.NET AJAX Architecture
 
-<img class="slide-image" src="imgs/asp-ajax-architecture.PNG" style="width:80%; top:10%; left:10%" />
+<img class="slide-image" src="imgs/asp-ajax-architecture.png" style="width:80%; top:10%; left:10%" />
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
