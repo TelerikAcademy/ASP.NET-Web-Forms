@@ -288,18 +288,3 @@ if (file != null)
 
 <img class="slide-image" src="imgs/questions.png" style="width:80%; top:15%; left:10%" />
 <div style="position: absolute; bottom: 1em; right: 0; font-size: 26px;">http://academy.telerik.com</div>
-
-<!-- attr: { showInPresentation:true, style:'font-size: 44px' } -->
-# Homework
-- Create a `Web Forms` upload page using `Kendo UI` / `ASP.NET AJAX Controls` for archive with text files. The upload must work only with `.zip` file extension. You should not write the zip file into the server file system. Save the file to the memory and using external library, extract the text files and save their content into the database. The text files should not be saved to the file system either.
-
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Free Trainings @ Telerik Academy
-- C# Programming @ Telerik Academy
-    - http://csharpfundamentals.telerik.com
-  - Telerik Software Academy
-    - http://academy.telerik.com
-  - Telerik Academy @ Facebook
-    - https://facebook.com/TelerikAcademy
-  - Telerik Software Academy Forums
-    - http://forums.academy.telerik.com

@@ -453,7 +453,7 @@ generatedImage.Save(Response.OutputStream,ImageFormat.Gif);
 
 <!-- attr: { showInPresentation:true, style:'font-size: 40px' } -->
 # Exercises (3)
-- x Implement the Tic-Tac-Toe game which allows Internet users to play one against another. Multiple game sessions should be supported to run in parallel. The main page (`Default.aspx`) should list all games in the application (games now playing, finished games and games waiting for a second player). The user could start a new game or join existing game which has only one player or view who is the winner of any finished game. When starting new game or joining an existing game, the player should enter his or her name. Players who wait for an oponent to join to their game or to enter a valid move should check repeatedly at 1 second.
+- Implement the Tic-Tac-Toe game which allows Internet users to play one against another. Multiple game sessions should be supported to run in parallel. The main page (`Default.aspx`) should list all games in the application (games now playing, finished games and games waiting for a second player). The user could start a new game or join existing game which has only one player or view who is the winner of any finished game. When starting new game or joining an existing game, the player should enter his or her name. Players who wait for an oponent to join to their game or to enter a valid move should check repeatedly at 1 second.
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size: 40px' } -->
 # Free Trainings @ Telerik Academy
