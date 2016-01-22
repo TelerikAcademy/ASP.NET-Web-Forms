@@ -438,30 +438,3 @@ generatedImage.Save(Response.OutputStream,ImageFormat.Gif);
 
 <img class="slide-image" src="imgs/questions.png" style="width:80%; top:10%; left:10%" />
 <div style="position: absolute; bottom: 1em; right: 0; font-size: 26px;">http://academy.telerik.com</div>
-
-<!-- attr: { showInPresentation:true, style:'font-size: 40px' } -->
-# Exercises
-- Create an ASP.NET Web Form, which prints the type of the browser and the client IP address requested `.aspx` page.
-- Create a ASP.NET Web Form which appends the input of a text field when a button is clicked in the `Session` object and then prints it in a `<asp:Label>` control. Use `List<string>` to keep all the text lines entered in the page during the session lifetime.
-- Create two pages that exchange user data with cookies. The first page is a login page. The second one redirects to the first one if the expected cookie is missing. The cookie must expire in 1 minute.
-
-<!-- attr: { showInPresentation:true, style:'font-size: 40px' } -->
-# Exercises (2)
-- In ASPX page holding a `TextBox` run a JavaScript code that deletes the ViewState hidden field variable in ASPX page. What happens at postback?
-- Implement a graphical Web counter. It should display as JPEG image the total number of visitors of the requested `.aspx` page since the start of the Web application. Keep the number of visitors in the `Application` object. What happens when the Web server is stopped?
-- Re-implement the previous task to keep the total number of visitors in SQL Server database.
-
-<!-- attr: { showInPresentation:true, style:'font-size: 40px' } -->
-# Exercises (3)
-- Implement the Tic-Tac-Toe game which allows Internet users to play one against another. Multiple game sessions should be supported to run in parallel. The main page (`Default.aspx`) should list all games in the application (games now playing, finished games and games waiting for a second player). The user could start a new game or join existing game which has only one player or view who is the winner of any finished game. When starting new game or joining an existing game, the player should enter his or her name. Players who wait for an oponent to join to their game or to enter a valid move should check repeatedly at 1 second.
-
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size: 40px' } -->
-# Free Trainings @ Telerik Academy
-- "Web Design with HTML 5, CSS 3 and JavaScript" course @ Telerik Academy
-    - http://html5course.telerik.com
-  - Telerik Software Academy
-    - http://academy.telerik.com
-  - Telerik Academy @ Facebook
-    - https://facebook.com/TelerikAcademy
-  - Telerik Software Academy Forums
-    - http://forums.academy.telerik.com
