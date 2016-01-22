@@ -24,7 +24,7 @@
 # Data Validation
 - When a user enters data in a form the programmer expects a certain data type
 - Invalid input can break the application logic
-- `Input data validation `means
+- `Input data validation` means
   - Comparing a field to specific values or a range of acceptable values
   - Checking for required interdependencies between the fields
 
@@ -152,7 +152,7 @@
 # The Display Property
 - The `Display` property sets the layout of the error message
   - Affects messages which are displayed at the validation control’s position
-  - Messages shown in the `ValidationSummary `control are unaffected
+  - Messages shown in the `ValidationSummary` control are unaffected
   - Applied when the form use `FlowLayout` only
   - `Static `– fixed space is allocated for the error
   - `Dynamic `– space is allocated only if an error should be displayed, otherwise nothing is shown
@@ -251,13 +251,3 @@ private void ButtonSubmit_Click(
 
 <img class="slide-image" src="imgs/questions.png" style="width:80%; top:10%; left:10%" />
 <div style="position: absolute; bottom: 1em; right: 0; font-size: 26px;">http://academy.telerik.com</div>
-
-<!-- attr: { showInPresentation:true, style:'font-size: 40px' } -->
-# Exercises
-- Create a form to register users with fields for preferred user name, password, repeat password, first name, last name, age, email, local address, phone and an “I accept” option. All fields are required. Valid age is between 18 and 81. Display error messages in a `ValidationSummary`. Use a regular expression for the email and phone fields.
-- Separate the fields in groups and validate them using Validation Groups. The Validation Groups should be at least three – Logon Info, Personal Info, Address Info.
-
-<!-- attr: { showInPresentation:true, style:'font-size: 40px' } -->
-# Exercises (2)
-- Add a radio button to choose the gender (male / female). If the user is male, dynamically display a list of check boxes for choosing his favourite cars (e.g. BMW, Toyota, etc.). If the user is female display a drop-down list to allow her select her favourite coffee (e.g. Lavazza, New Brazil, etc.). Note that selecting a coffee is optional for the female users. Implement this by server PostBacks.
-- Implement the previous with client-side JavaScript.

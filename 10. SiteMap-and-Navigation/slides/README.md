@@ -27,7 +27,7 @@
     - Built in support for XML Site Map
   - Object model 
     - Programming API for accessing the Site Map
-  - `SiteMapDataSource `
+  - `SiteMapDataSource`
     - Used for data binding
 
 <!-- attr: { showInPresentation:true, style:'' } -->
@@ -40,11 +40,11 @@
 
 <!-- attr: { showInPresentation:true, style:'' } -->
 # XML Site Map
-- Create an XML file named `Web.sitemap `in the application root
+- Create an XML file named `Web.sitemap` in the application root
   - Automatically detected by the default ASP.NET `SiteMapProvider`
 - Add a `siteMapNode` element for each page in your Web site
   - Nest `siteMapNode` elements to create a hierarchy
-- Should have only one root `siteMapNode `element 
+- Should have only one root `siteMapNode` element 
 
 <!-- attr: { showInPresentation:true, style:'' } -->
 # Web.sitemap – Example
@@ -103,7 +103,7 @@
   - The number of statically displayedlevels starting from the root
 - `MaximumDynamicDisplay`
   - The number of dynamically displayed levels after the last of the static ones
-- Element `onclick() `event
+- Element `onclick()` event
   - Navigation to another page
   - Postback to the same page
 
@@ -121,17 +121,17 @@
 - Allows the user to see where he is in the site hierarchy
 - Displayed in a straightforward fashion
 - We can set:
-  - `PathDirection `– `RootToCurrent `and `CurrentToRoot`
-  - `PathSeparator `– a separator between the levels in the hierarchy
-  - `ParentLevelsDisplayed `– how many parent elements to display
+  - `PathDirection` – `RootToCurrent `and `CurrentToRoot`
+  - `PathSeparator` – a separator between the levels in the hierarchy
+  - `ParentLevelsDisplayed` – how many parent elements to display
 
 <!-- attr: { showInPresentation:true, style:'' } -->
 # SiteMapDataSource
-- `SiteMapPath `has integrated support for Site Map (it reads automatically `Web.sitemap`)
-- A `SiteMapDataSource `object is used to bind the `Web.sitemap` to a navigation control
+- `SiteMapPath` has integrated support for Site Map (it reads automatically `Web.sitemap`)
+- A `SiteMapDataSource` object is used to bind the `Web.sitemap` to a navigation control
   - First drop one on the page
-  - Set the `DataSourceID `property of the bound control to point to the `SiteMapDataSource `
-  - `ShowStartingNode `– show hide the root
+  - Set the `DataSourceID` property of the bound control to point to the `SiteMapDataSource`
+  - `ShowStartingNode` – show hide the root
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <!-- # Navigation Controls -->
@@ -186,27 +186,3 @@ private bool ShouldRemoveItem(string menuText)
 
 <img class="slide-image" src="imgs/questions.png" style="width:80%; top:15%; left:10%" />
 <div style="position: absolute; bottom: 1em; right: 0; font-size: 26px;">http://academy.telerik.com</div>
-
-<!-- attr: { showInPresentation:true, style:'font-size: 44px' } -->
-# Exercises
-- Create a Web application with two-levels of site navigation with the following structure:
-  - Home
-  - Offices
-    - Bulgaria
-      - Sofia, Varna, Plovdiv
-    - U.K.
-      - London, Bristol, Manchester
-  - About
-  - Contacts
-  - Use master pages, menus, breadcrumbs and site map.
-
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Free Trainings @ Telerik Academy
-- "Web Design with HTML 5, CSS 3 and JavaScript" course @ Telerik Academy
-    - http://html5course.telerik.com
-  - Telerik Software Academy
-    - http://academy.telerik.com
-  - Telerik Academy @ Facebook
-    - https://facebook.com/TelerikAcademy
-  - Telerik Software Academy Forums
-    - http://forums.academy.telerik.com
