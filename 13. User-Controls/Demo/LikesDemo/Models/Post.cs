@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace LikesDemo.Models
+﻿namespace LikesDemo.Models
 {
+    using System.Collections.Generic;
+
     public class Post
     {
         public Post()

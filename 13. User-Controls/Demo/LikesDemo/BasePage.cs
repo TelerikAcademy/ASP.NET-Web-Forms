@@ -1,12 +1,8 @@
-﻿using LikesDemo.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Web.UI;
-
-namespace LikesDemo
+﻿namespace LikesDemo
 {
+    using LikesDemo.Models;
+    using System.Web.UI;
+
     public class BasePage : Page
     {
         public AppDbContext dbContext { get; set; }

@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-
-namespace LikesDemo.Controls
+﻿namespace LikesDemo.Controls
 {
+    using System;
+    using System.Web.UI.WebControls;
+
     public class LikeEventArgs : EventArgs
     {
         public LikeEventArgs(object dataID, bool likeValue)
@@ -20,15 +16,15 @@ namespace LikesDemo.Controls
 
     public partial class LikeControl : System.Web.UI.UserControl
     {
+        public delegate void LikeEventHandler(object sender, LikeEventArgs e);
+
+        public event LikeEventHandler Like;
+
         public int LikesValue { get; set; }
 
         public int DataID { get; set; }
 
         public bool? UserVote { get; set; }
-
-        public delegate void LikeEventHandler(object sender, LikeEventArgs e);
-
-        public event LikeEventHandler Like;
 
         protected void Page_Load(object sender, EventArgs e)
         {

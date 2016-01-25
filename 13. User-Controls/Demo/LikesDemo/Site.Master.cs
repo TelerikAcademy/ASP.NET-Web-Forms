@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Security.Claims;
-using System.Security.Principal;
-using System.Web;
-using System.Web.Security;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-
-namespace LikesDemo
+﻿namespace LikesDemo
 {
+    using System;
+    using System.Web;
+    using System.Web.Security;
+    using System.Web.UI;
+    using System.Web.UI.WebControls;
+    using LikesDemo.Controls;
+
     public partial class SiteMaster : MasterPage
     {
         private const string AntiXsrfTokenKey = "__AntiXsrfToken";
@@ -17,6 +15,8 @@ namespace LikesDemo
 
         protected void Page_Init(object sender, EventArgs e)
         {
+            var c1 = Page.LoadControl("~/Controls/LikeControl.ascx");
+            var c2 = new LikesDemo.Controls.LikeControl();
             // The code below helps to protect against XSRF attacks
             var requestCookie = Request.Cookies[AntiXsrfTokenKey];
             Guid requestCookieGuidValue;

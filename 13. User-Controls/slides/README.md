@@ -24,6 +24,10 @@
     - Plain C# code inheriting from `WebControl`
     - No HTML, rendered in C# code
 
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
+# ASP.NET User Controlsand Custom Controls(2)
+<img class="slide-image" src="imgs/user-vs-custom-controls.png" style="width: 80%; top: 25%; left: 10%" />
+
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # ASP.NET User Controls
