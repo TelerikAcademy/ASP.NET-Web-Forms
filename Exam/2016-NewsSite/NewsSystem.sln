@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsSystem", "NewsSystem\NewsSystem.csproj", "{96562AF1-86ED-4CE1-B677-C67303D59CD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsSystem.Data", "NewsSystem.Data\NewsSystem.Data.csproj", "{B0D001DC-4B26-4087-A77B-9FEE8AE07CED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsSystem.Models", "NewsSystem.Models\NewsSystem.Models.csproj", "{221DF57A-51A2-43FE-8E28-0D060BBD966B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsSystem.Services", "NewsSystem.Services\NewsSystem.Services.csproj", "{B1B35FD8-C355-47C4-9000-30807FC20A38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96562AF1-86ED-4CE1-B677-C67303D59CD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96562AF1-86ED-4CE1-B677-C67303D59CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96562AF1-86ED-4CE1-B677-C67303D59CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96562AF1-86ED-4CE1-B677-C67303D59CD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0D001DC-4B26-4087-A77B-9FEE8AE07CED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D001DC-4B26-4087-A77B-9FEE8AE07CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0D001DC-4B26-4087-A77B-9FEE8AE07CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0D001DC-4B26-4087-A77B-9FEE8AE07CED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{221DF57A-51A2-43FE-8E28-0D060BBD966B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221DF57A-51A2-43FE-8E28-0D060BBD966B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{221DF57A-51A2-43FE-8E28-0D060BBD966B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{221DF57A-51A2-43FE-8E28-0D060BBD966B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1B35FD8-C355-47C4-9000-30807FC20A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B35FD8-C355-47C4-9000-30807FC20A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B35FD8-C355-47C4-9000-30807FC20A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B35FD8-C355-47C4-9000-30807FC20A38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
