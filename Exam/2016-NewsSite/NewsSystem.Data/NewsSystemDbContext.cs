@@ -3,7 +3,8 @@
     using System;
     using System.Data.Entity;
     using Microsoft.AspNet.Identity.EntityFramework;
-    using NewsSystem.Models;
+    using Models;
+
     public class NewsSystemDbContext : IdentityDbContext<User>, INewsSystemDbContext
     {
         public NewsSystemDbContext()

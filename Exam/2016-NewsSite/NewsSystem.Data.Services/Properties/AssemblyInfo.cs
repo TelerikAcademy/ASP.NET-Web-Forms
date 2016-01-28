@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NewsSystem.Data")]
+[assembly: AssemblyTitle("NewsSystem.Data.Services")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("NewsSystem.Data")]
+[assembly: AssemblyProduct("NewsSystem.Data.Services")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("66858abd-201b-4552-936a-f046e33568e3")]
+[assembly: Guid("6660f8b6-57f7-4594-9890-6db17123b519")]
 
 // Version information for an assembly consists of the following four values:
 //

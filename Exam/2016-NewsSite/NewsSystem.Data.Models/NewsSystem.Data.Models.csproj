@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{66858ABD-201B-4552-936A-F046E33568E3}</ProjectGuid>
+    <ProjectGuid>{AFA91D12-B177-48B8-BB61-FCAC49A924FD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NewsSystem.Data</RootNamespace>
-    <AssemblyName>NewsSystem.Data</AssemblyName>
+    <RootNamespace>NewsSystem.Data.Models</RootNamespace>
+    <AssemblyName>NewsSystem.Data.Models</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -57,25 +57,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="INewsSystemDbContext.cs" />
-    <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Migrations\SeedData.cs" />
-    <Compile Include="NewsSystemDbContext.cs" />
+    <Compile Include="Article.cs" />
+    <Compile Include="Category.cs" />
+    <Compile Include="Like.cs" />
+    <Compile Include="User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\GenericRepository.cs" />
-    <Compile Include="Repositories\IRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\NewsSystem.Data.Models\NewsSystem.Data.Models.csproj">
-      <Project>{afa91d12-b177-48b8-bb61-fcac49a924fd}</Project>
-      <Name>NewsSystem.Data.Models</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

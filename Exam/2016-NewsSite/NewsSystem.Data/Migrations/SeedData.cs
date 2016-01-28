@@ -1,6 +1,6 @@
-﻿namespace NewsSystem.Data.Migrations
+﻿namespace NewsSystem.Migrations
 {
-    using NewsSystem.Models;
+    using NewsSystem.Data.Models;
     using System;
     using System.Collections.Generic;
 
@@ -16,8 +16,6 @@
 
         public SeedData(User author)
         {
-            this.Author = author;
-
             this.Categories = new List<Category>();
             Categories.Add(new Category() { Name = "Art" });
             Categories.Add(new Category() { Name = "Economy" });
@@ -27,6 +25,7 @@
             Categories.Add(new Category() { Name = "Science" });
             Categories.Add(new Category() { Name = "Weather" });
 
+            this.Author = author;
             User user = author;
 
             this.Articles = new List<Article>();

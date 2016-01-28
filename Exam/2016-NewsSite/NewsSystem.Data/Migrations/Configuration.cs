@@ -1,5 +1,7 @@
 namespace NewsSystem.Data.Migrations
 {
+    using Models;
+    using NewsSystem.Migrations;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
@@ -8,24 +10,25 @@ namespace NewsSystem.Data.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
-            AutomaticMigrationDataLossAllowed = true;
         }
 
         protected override void Seed(NewsSystem.Data.NewsSystemDbContext context)
         {
-            if(context.Articles.Any())
+            if (context.Articles.Any())
             {
                 return;
             }
 
-            var seed = new SeedData(new Models.User()
+            var user = new User()
             {
                 UserName = "Kon"
-            });
+            };
 
-            context.Users.Add(seed.Author);
+            context.Users.Add(user);
 
             context.SaveChanges();
+
+            var seed = new SeedData(user);
 
             seed.Categories.ForEach(x => context.Categories.Add(x));
 
