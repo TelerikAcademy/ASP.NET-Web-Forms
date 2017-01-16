@@ -258,7 +258,7 @@
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# ASP.NET Page Lifecycle
+<!--# ASP.NET Page Lifecycle-->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic24.png" style="top:11.76%; left:30.23%; width:50.83%; z-index:-1" /> -->
 
@@ -290,7 +290,7 @@
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# How Does VIEWSTATE Work?
+<!--# How Does VIEWSTATE Work?-->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs\pic27.png" style="top:9.82%; left:10.29%; width:80.51%; z-index:-1" /> -->
 
