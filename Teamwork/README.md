@@ -52,6 +52,8 @@ Your Web application should use the following technologies, frameworks and devel
 * Apply **error handling** and data validation to avoid crashes when invalid data is entered
 * Prevent yourself from **security** holes (XSS, XSRF, Parameter Tampering, etc.)
 	* Handle correctly the **special HTML characters** and tags like `<script>`, `<br />`, etc.
+* Create **unit tests** for your "business" functionality following the best practices for writing unit tests (**at least 70% code coverage**) - **~30% of the points for the project**
+* Use **MVP pattern** in collaboration with the **Dependency Inversion** principle and **Dependency Injection** technique - **~20% of the points for the project**
 * Use GitHub and take advantage of the **branches** for team collaboration.
 * Brief **documentation** of the project and project architecture (as `.md` file)
 
@@ -59,22 +61,21 @@ Your Web application should use the following technologies, frameworks and devel
 
 * Nice looking UI supporting of all modern and old Web browsers
 * Good usability (easy to use UI)
+* Code coverage **above 90%** - **bonus points**
 
 ### Deliverables
 
-Put the following in a **ZIP archive** and submit it (**each team member** submits the same file):
-* The **source code** (ASPX pages, C# files, images, scripts, styles, etc.)
-	* **Don't submit the NuGet packages!** They are not needed and take too much disk space.
-* The project documentation
+* Record a short video showcasing your application
+	* ~1-2 minutes, just show the interesting features
+	* Do not record register/login functionality, this is not interesting...
+* Your application should be hosted locally (on IIS)
+* Register your application at [Our Showcase System](http://best.telerikacademy.com/)
+	* Link to the video
+	* Link to the GitHub repository
 
 ### Public Project Defense
 
-Each team will have to make a **public defense** of its work to the trainers (in 5-10 minutes). It includes:
+Each team will have to make a **public defense** of its work to the trainers (in 20-30 minutes per team member). It includes:
 * Live **demonstration** of the developed web application (please prepare sample data).
 * Explain application structure and its **source code**: ASPX pages, C# code, data-bindings, ASCX controls, etc.
-* Show the **commit logs** in the source control repository to prove a contribution from all team members.
-
-### Give Feedback about Your Teammates
-
-You will be invited to **provide feedback** about all your teammates, their attitude to this project, their technical skills, their team working skills, their contribution to the project, etc.
-The feedback is important part of the project evaluation so **take it seriously** and be honest.
+* Each team member **must know everything about the project** (**what**, **why** and **how**) and will be presenting it separately.
