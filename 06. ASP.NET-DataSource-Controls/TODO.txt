@@ -1,5 +1,0 @@
-Model Binding
-  - Add Edit / Insert / Delete
- 
-
- 
