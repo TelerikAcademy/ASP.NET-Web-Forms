@@ -73,7 +73,8 @@ namespace LibrarySystemLiveDemo.App_Start
 
             PresenterBinder.Factory = kernel.Get<IPresenterFactory>();
 
-            kernel.Bind<ILibrarySystemContext>().To<LibrarySystemContext>().InRequestScope();
+            kernel.Bind(typeof(ILibrarySystemContext), typeof(ILibrarySystemBaseContext))
+                .To<LibrarySystemContext>().InRequestScope();
 
             kernel.Bind<IBookService>().To<BookService>();
             kernel.Bind<ICategoryService>().To<CategoryService>();

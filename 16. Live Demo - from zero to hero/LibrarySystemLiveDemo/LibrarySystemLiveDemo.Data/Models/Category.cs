@@ -12,6 +12,8 @@ namespace LibrarySystemLiveDemo.Data.Models
             this.Books = new HashSet<Book>();
         }
         
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public Guid Id { get; set; }
 
         [Required]

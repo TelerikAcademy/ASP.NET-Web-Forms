@@ -10,33 +10,24 @@
 namespace LibrarySystemLiveDemo {
     
     
-    public partial class Books {
+    public partial class Search {
         
         /// <summary>
-        /// TextBoxSearchParam control.
+        /// LiteralSearchQuery control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxSearchParam;
+        protected global::System.Web.UI.WebControls.Literal LiteralSearchQuery;
         
         /// <summary>
-        /// LinkButtonSearch control.
+        /// Reapeater control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton LinkButtonSearch;
-        
-        /// <summary>
-        /// ListViewCategories control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ListView ListViewCategories;
+        protected global::System.Web.UI.WebControls.Repeater Reapeater;
     }
 }

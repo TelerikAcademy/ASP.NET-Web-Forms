@@ -3,12 +3,10 @@ using LibrarySystemLiveDemo.Data.Models;
 
 namespace LibrarySystemLiveDemo.Data
 {
-    public interface ILibrarySystemContext
+    public interface ILibrarySystemContext : ILibrarySystemBaseContext
     {
         IDbSet<Book> Books { get; } 
 
         IDbSet<Category> Categories { get; }
-
-        int SaveChanges();
     }
 }

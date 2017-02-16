@@ -1,4 +1,5 @@
-﻿using System.Data.Entity;
+﻿using System;
+using System.Data.Entity;
 using System.Linq;
 using LibrarySystemLiveDemo.Data;
 using LibrarySystemLiveDemo.Data.Models;
@@ -14,9 +15,20 @@ namespace LibrarySystemLiveDemo.Services
             this.librarySystemContext = librarySystemContext;
         }
 
-        public IQueryable<Category> GetAllCategories()
+        public IQueryable<Category> GetAllCategoriesSortedById()
+        {
+            return this.librarySystemContext.Categories.OrderBy(c => c.Id);
+        }
+
+        public IQueryable<Category> GetAllCategoriesWithBooksIncluded()
         {
             return this.librarySystemContext.Categories.Include(c => c.Books);
+        }
+
+        public int InsertCategory(Category category)
+        {
+            this.librarySystemContext.Categories.Add(category);
+            return this.librarySystemContext.SaveChanges();
         }
     }
 }

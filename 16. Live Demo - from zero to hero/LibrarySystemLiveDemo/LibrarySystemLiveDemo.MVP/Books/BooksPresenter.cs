@@ -18,7 +18,7 @@ namespace LibrarySystemLiveDemo.MVP.Books
 
         private void View_OnCategoriesGetData(object sender, EventArgs e)
         {
-            this.View.Model.Categories = this.categoryService.GetAllCategories();
+            this.View.Model.Categories = this.categoryService.GetAllCategoriesWithBooksIncluded();
         }
     }
 }

@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ILibrarySystemBaseContext.cs" />
     <Compile Include="ILibrarySystemContext.cs" />
     <Compile Include="LibrarySystemContext.cs" />
     <Compile Include="Migrations\Configuration.cs" />

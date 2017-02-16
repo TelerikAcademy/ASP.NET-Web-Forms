@@ -5,6 +5,10 @@ namespace LibrarySystemLiveDemo.Services
 {
     public interface ICategoryService
     {
-        IQueryable<Category> GetAllCategories();
+        IQueryable<Category> GetAllCategoriesWithBooksIncluded();
+
+        IQueryable<Category> GetAllCategoriesSortedById();
+
+        int InsertCategory(Category category);
     }
 }
