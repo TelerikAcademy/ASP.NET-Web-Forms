@@ -5,7 +5,9 @@
 <asp:Content ID="ContentBody" ContentPlaceHolderID="MainContent" runat="server">
     <asp:ListView ID="ListView1" runat="server" ItemType="LibrarySystemLiveDemo.Data.Models.Category"
         SelectMethod="ListView1_GetData" InsertMethod="ListView1_InsertItem"
-        DeleteMethod="ListView1_DeleteItem" UpdateMethod="ListView1_UpdateItem" InsertItemPosition="LastItem">
+        DeleteMethod="ListView1_DeleteItem" UpdateMethod="ListView1_UpdateItem" 
+        InsertItemPosition="LastItem"
+        DataKeyNames="Id">
         <LayoutTemplate>
             <table class="gridview" cellspacing="0" rules="all" border="1" id="MainContent_GridViewCategories" style="border-collapse: collapse;">
                 <tbody>

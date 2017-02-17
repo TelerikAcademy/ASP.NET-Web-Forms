@@ -8,6 +8,8 @@ namespace LibrarySystemLiveDemo.MVP.EditCategories
     {
         event EventHandler OnGetData;
         event EventHandler OnInsertItem;
+        event EventHandler<IdEventArgs> OnDeleteItem;
+        event EventHandler<IdEventArgs> OnUpdateItem;
 
         ModelStateDictionary ModelState { get; }
 

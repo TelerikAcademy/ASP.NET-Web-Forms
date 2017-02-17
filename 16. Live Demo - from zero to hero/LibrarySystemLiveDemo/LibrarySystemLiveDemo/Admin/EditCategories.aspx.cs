@@ -12,6 +12,8 @@ namespace LibrarySystemLiveDemo.Admin
     {
         public event EventHandler OnGetData;
         public event EventHandler OnInsertItem;
+        public event EventHandler<IdEventArgs> OnDeleteItem;
+        public event EventHandler<IdEventArgs> OnUpdateItem;
 
         // The return type can be changed to IEnumerable, however to support
         // paging and sorting, the following parameters must be added:
@@ -34,26 +36,13 @@ namespace LibrarySystemLiveDemo.Admin
         // The id parameter name should match the DataKeyNames value set on the control
         public void ListView1_DeleteItem(Guid id)
         {
-
+            this.OnDeleteItem?.Invoke(this, new IdEventArgs(id));
         }
 
         // The id parameter name should match the DataKeyNames value set on the control
         public void ListView1_UpdateItem(Guid id)
         {
-            LibrarySystemLiveDemo.Data.Models.Category item = null;
-            // Load the item here, e.g. item = MyDataLayer.Find(id);
-            if (item == null)
-            {
-                // The item wasn't found
-                ModelState.AddModelError("", String.Format("Item with id {0} was not found", id));
-                return;
-            }
-            TryUpdateModel(item);
-            if (ModelState.IsValid)
-            {
-                // Save changes here, e.g. MyDataLayer.SaveChanges();
-
-            }
+            this.OnUpdateItem?.Invoke(this, new IdEventArgs(id));
         }
     }
 }

@@ -58,6 +58,7 @@
     <Compile Include="Books\IBooksView.cs" />
     <Compile Include="EditCategories\EditCategoriesPresenter.cs" />
     <Compile Include="EditCategories\EditCategoriesViewModel.cs" />
+    <Compile Include="EditCategories\IdEventArgs.cs" />
     <Compile Include="EditCategories\IEditCategoriesView.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Search\ISearchView.cs" />

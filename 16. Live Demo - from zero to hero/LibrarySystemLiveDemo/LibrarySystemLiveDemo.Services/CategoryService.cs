@@ -25,9 +25,31 @@ namespace LibrarySystemLiveDemo.Services
             return this.librarySystemContext.Categories.Include(c => c.Books);
         }
 
+        public Category GetById(Guid id)
+        {
+            return this.librarySystemContext.Categories.Find(id);
+        }
+
         public int InsertCategory(Category category)
         {
             this.librarySystemContext.Categories.Add(category);
+            
+            return this.librarySystemContext.SaveChanges();
+        }
+
+        public int DeleteCategory(Guid categoryId)
+        {
+            Category category = this.librarySystemContext.Categories.Find(categoryId);
+            this.librarySystemContext.Categories.Remove(category);
+
+            return this.librarySystemContext.SaveChanges();
+        }
+
+        public int UpdateCategory(Category category)
+        {
+            var entry = this.librarySystemContext.Entry(category);
+            entry.State = EntityState.Modified;
+
             return this.librarySystemContext.SaveChanges();
         }
     }

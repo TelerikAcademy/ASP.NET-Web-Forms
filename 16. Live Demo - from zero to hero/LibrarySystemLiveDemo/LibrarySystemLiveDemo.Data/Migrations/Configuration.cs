@@ -16,8 +16,6 @@ namespace LibrarySystemLiveDemo.Data.Migrations
 
         protected override void Seed(LibrarySystemContext context)
         {
-            return;
-
             if (context.Books.Any())
             {
                 return;

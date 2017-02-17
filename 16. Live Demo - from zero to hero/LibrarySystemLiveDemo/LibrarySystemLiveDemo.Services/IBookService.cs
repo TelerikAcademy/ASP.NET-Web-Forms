@@ -8,6 +8,6 @@ namespace LibrarySystemLiveDemo.Services
     {
         Book GetById(Guid? id);
 
-        IQueryable<Book> GetBooksByTitleAndAuthor(string searchTerm);
+        IQueryable<Book> GetBooksByTitleOrAuthor(string searchTerm);
     }
 }

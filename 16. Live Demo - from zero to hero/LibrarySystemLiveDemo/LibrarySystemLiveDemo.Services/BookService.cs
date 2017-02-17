@@ -14,7 +14,7 @@ namespace LibrarySystemLiveDemo.Services
             this.librarySystemContext = librarySystemContext;
         }
 
-        public IQueryable<Book> GetBooksByTitleAndAuthor(string searchTerm)
+        public IQueryable<Book> GetBooksByTitleOrAuthor(string searchTerm)
         {
             return string.IsNullOrEmpty(searchTerm) ? this.librarySystemContext.Books
                 : this.librarySystemContext.Books.Where(b => 

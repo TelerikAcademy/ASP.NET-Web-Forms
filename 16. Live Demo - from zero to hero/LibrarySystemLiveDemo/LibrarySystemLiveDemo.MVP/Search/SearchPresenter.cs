@@ -20,7 +20,7 @@ namespace LibrarySystemLiveDemo.MVP.Search
 
         private void View_OnRepeaterGetData(object sender, SearchEventArgs e)
         {
-            this.View.Model.Books = this.bookService.GetBooksByTitleAndAuthor(e.QueryParams);
+            this.View.Model.Books = this.bookService.GetBooksByTitleOrAuthor(e.QueryParams);
         }
     }
 }
