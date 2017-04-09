@@ -1,6 +1,6 @@
 <!-- section start -->
 <!-- attr: { class:'slide-title', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# ASP.NET Web Controlsand HTML Controls
+# ASP.NET Web Controls and HTML Controls
 <div class="signature">
     <p class="signature-course">Telerik Software Academy</p>
     <p class="signature-initiative">http://academy.telerik.com </p>
