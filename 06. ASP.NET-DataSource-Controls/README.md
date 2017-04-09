@@ -1,6 +1,6 @@
 <!-- section start -->
 <!-- attr: { class:'slide-title', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# ASP.NETData Source Controls
+# ASP.NET Data Source Controls
 ##  Building Data-Driven ASP.NET Web Forms Apps
 <div class="signature">
     <p class="signature-course">Telerik Software Academy</p>
