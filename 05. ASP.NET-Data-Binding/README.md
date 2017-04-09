@@ -15,7 +15,7 @@
 - Declarative Data Binding
 - Complex Data-Bound Controls
 - Templates and Template Controls
-- `Container.DataItem`, `Eval(…)` andStrongly-Typed Binding
+- `Container.DataItem`, `Eval(…)` and Strongly-Typed Binding
 - Using `GridView`, `FormView`, `DetailsView`, `Repeater`, `ListView`, `DataPager`
 
 <!-- section start -->
